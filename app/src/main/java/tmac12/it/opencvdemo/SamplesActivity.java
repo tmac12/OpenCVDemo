@@ -38,7 +38,8 @@ public class SamplesActivity extends AppCompatActivity {
     }
 
     public void faceDetection(View v){
-        sampleIntent = new Intent(this, FdActivity.class);
+        //sampleIntent = new Intent(this, FdActivity.class);
+        sampleIntent = new Intent(this, FdActivity2.class);
         startActivity(sampleIntent);
     }
     public void cameraCalibration(View v){
