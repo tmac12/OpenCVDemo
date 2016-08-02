@@ -38,9 +38,8 @@ public class SamplesActivity extends AppCompatActivity {
     }
 
     public void faceDetection(View v){
-        //sampleIntent = new Intent(this, ColorBlobDetectionActivity.class);
-        //startActivity(sampleIntent);
-        Toast.makeText(this, "Not yet implemented", Toast.LENGTH_SHORT).show();
+        sampleIntent = new Intent(this, FdActivity.class);
+        startActivity(sampleIntent);
     }
     public void cameraCalibration(View v){
         //sampleIntent = new Intent(this, ColorBlobDetectionActivity.class);
@@ -48,8 +47,8 @@ public class SamplesActivity extends AppCompatActivity {
         Toast.makeText(this, "Not yet implemented", Toast.LENGTH_SHORT).show();
     }
     public void puzzle15(View v){
-        //sampleIntent = new Intent(this, ColorBlobDetectionActivity.class);
-        //startActivity(sampleIntent);
-        Toast.makeText(this, "Not yet implemented", Toast.LENGTH_SHORT).show();
+        sampleIntent = new Intent(this, Puzzle15Activity.class);
+        startActivity(sampleIntent);
+        //Toast.makeText(this, "Not yet implemented", Toast.LENGTH_SHORT).show();
     }
 }
